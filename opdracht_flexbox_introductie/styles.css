@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(80, 65, 65);
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+
+
+.background{
+    background-color: whitesmoke;
+    border: 25px solid green;
+    margin: 20px;
+    padding: 30px;
+}
+
+.border{
+    border: 3px solid grey;
+    text-decoration: lightsteelblue;
+    background-color: whitesmoke;
+    
+}
+
+p{
+  font-size: 20px;
+  text-align: justify;  
+}
+
+.headline{
+    font-size: 75px;
+    color:khaki;
+    margin: 0 auto;
+    width: 440px;
+}
+
+li {
+    margin: 10px 10px 10px 10px;
+    list-style-type: disc;
+
+}
+
+ul {
+    text-align: justify;
+    color: green;
+    font-size: 20px;
+   
+    
+}
+
+footer{
+    color: green;
+    margin-top: 75px; 
+       
+}
+
+a{
+    color: rgb(68, 0, 255);
+    margin: 5px;
+}
+
+h4{
+    font-size: xx-large;   
+}
+
+section{
+    font-size: 20px;
+    border: 25px solid green;
+    margin: 40px;
+    padding: 30px;
+
+}
+
+main{
+    border: 40px solid green;
+    padding: 30px;
+}
+
+header{
+    border: 25px solid green;
+    margin: 30px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding: 0px 20px 5px 20px ;
+
+}
+
+.row li{
+    display: inline;
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.center-nav {
+    margin: 0 auto;
+    width: 300px;
+}
+
+@media(min-width: 1024px) {
+    body{
+        background-color: green;
+        color: aqua;
+        font-size: 30px;
+        line-height: 2;
+        
+    }
+    section{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+.flex-container {
+    display: flex;
+    
+}
+ 
+    .blogpost1 { 
+      width: 300px; 
+      border: 1px solid black;
+      padding: 10px;
+      flex-grow: 1; 
+      align-self: flex-start;
+    }
+    .blogpost2 { 
+        width: 300px; 
+        border: 1px solid black;
+        padding: 10px;
+         
+      }
+    .blogpost3 { 
+        width: 300px; 
+        border: 1px solid black;
+        padding: 10px;
+        flex-grow: 3; 
+        align-self: center;
+      }
+    .blogpost4 { 
+        width: 300px; 
+        border: 1px solid black;
+        padding: 10px;
+        
+      }
+    .blogpost5 { 
+        width: 300px; 
+        border: 1px solid black;
+        padding: 10px; 
+        align-self: flex-end;
+        flex-grow: 4;
+      }
+
+      
